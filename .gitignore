@@ -26,3 +26,10 @@ _templates
 # javascript
 package-lock.json
 .vscode/symbols.json
+.DS_Store
+twitch_listener/__pycache__
+.gitignore
+__pycache__
+lib
+scripts/__pycache__
+scripts/.ipynb_checkpoints

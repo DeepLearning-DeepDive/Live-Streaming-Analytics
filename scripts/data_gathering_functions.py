@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 #conn = sqlite3.connect(con_string)
-con_string = '../front_end/db.sqlite3'
+con_string = 'db.sqlite3'
 
 
 def get_subscriber_change(channel_name, start_time):

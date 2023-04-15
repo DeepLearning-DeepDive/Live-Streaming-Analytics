@@ -25,7 +25,7 @@ class sentimentAnalyzer:
         conn = sqlite3.connect('data/db.sqlite3',isolation_level=None)
 
         # Load the data into a DataFrame
-        self.chat_df = pd.read_sql('select date,stream_datetime, stream_length, username, message_text, channel_name,stream_topic,stream_title, chatter_count, viewer_count, subscriber_count, stream_date, stream_id from chats_table_demo', conn)
+        self.chat_df = pd.read_sql('select date,stream_datetime, stream_length, username, message_text, channel_name,stream_topic,stream_title, chatter_count, viewer_count, follower_count, subscriber_count, stream_date, stream_id from chats_table_demo', conn)
 
         # Be sure to close the connection
         conn.close()    
